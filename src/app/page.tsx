@@ -1,4 +1,5 @@
 import AnnouncementTicker from "@/components/sections/AnnouncementTicker";
+import FeaturedDevelopments from "@/components/sections/FeaturedDevelopments";
 import HeroSection from "@/components/sections/hero-section";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <AnnouncementTicker />
+      <FeaturedDevelopments />
     </div>
   );
 }
