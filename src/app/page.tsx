@@ -1,10 +1,5 @@
-import { Button } from "@/components/ui/button";
+import HeroSection from "@/components/sections/hero-section";
 
 export default function Home() {
-  return (
-    <div>
-      Project will start
-      <Button>click me</Button>
-    </div>
-  );
+  return <HeroSection />;
 }
