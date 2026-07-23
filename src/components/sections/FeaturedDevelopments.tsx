@@ -55,7 +55,7 @@ const developments: Development[] = [
 export default function FeaturedDevelopments() {
   return (
     <section className="w-full bg-stone-50 px-4 py-16 sm:px-8 md:px-16 lg:px-24 lg:py-24">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto container">
         {/* Section Header */}
         <div className="mb-12 flex flex-col items-center justify-center text-center">
           <span className="text-sm font-medium tracking-wide text-[#D4A32A] sm:text-base">
