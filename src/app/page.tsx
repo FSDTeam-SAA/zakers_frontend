@@ -1,5 +1,6 @@
 import AdvisorProfile from "@/components/sections/AdvisorProfile";
 import AnnouncementTicker from "@/components/sections/AnnouncementTicker";
+import ClientStories from "@/components/sections/ClientStories";
 import ComparePropertiesBanner from "@/components/sections/ComparePropertiesBanner";
 import ConstructionStatus from "@/components/sections/ConstructionStatus";
 import FeaturedDevelopments from "@/components/sections/FeaturedDevelopments";
@@ -18,6 +19,7 @@ export default function Home() {
       <ComparePropertiesBanner />
       <WhyMiamiSection />
       <AdvisorProfile />
+      <ClientStories />
     </div>
   );
 }
