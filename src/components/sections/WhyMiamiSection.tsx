@@ -37,7 +37,7 @@ const statsData: StatItem[] = [
 
 export default function WhyMiamiSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-stone-50 lg:py-20">
+    <section className="relative w-full overflow-hidden bg-stone-50 px-4 py-16 sm:px-8 md:px-16 lg:px-24 lg:py-20">
       {/* Background Gradient Effect */}
       <div className="pointer-events-none absolute inset-0 opacity-5 bg-gradient-to-r from-transparent via-transparent to-orange-400/50" />
 

@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function ComparePropertiesBanner() {
   return (
-    <section className="w-full bg-slate-900 lg:py-20">
+    <section className="w-full bg-slate-900 px-4 py-16 sm:px-8 md:px-16 lg:px-24 lg:py-20">
       <div className="container mx-auto overflow-hidden bg-slate-900">
         <div className="flex flex-col-reverse lg:flex-row lg:items-center">
           {/* Left Content Side */}
