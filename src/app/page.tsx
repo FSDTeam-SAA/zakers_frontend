@@ -1,3 +1,4 @@
+import AdvisorProfile from "@/components/sections/AdvisorProfile";
 import AnnouncementTicker from "@/components/sections/AnnouncementTicker";
 import ComparePropertiesBanner from "@/components/sections/ComparePropertiesBanner";
 import ConstructionStatus from "@/components/sections/ConstructionStatus";
@@ -16,6 +17,7 @@ export default function Home() {
       <ConstructionStatus />
       <ComparePropertiesBanner />
       <WhyMiamiSection />
+      <AdvisorProfile />
     </div>
   );
 }
