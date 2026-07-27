@@ -24,7 +24,7 @@ const developments: Development[] = [
     price: "$1.2M",
     completion: "Est. 2027",
     beds: "1–4 Beds",
-    image: "https://placehold.co/515x288",
+    image: "/banner.svg",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const developments: Development[] = [
     price: "$850K",
     completion: "Est. 2025",
     beds: "2–3 Beds",
-    image: "https://placehold.co/515x288",
+    image: "/banner.svg",
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const developments: Development[] = [
     price: "$950K",
     completion: "Ready to Move In",
     beds: "1–2 Beds",
-    image: "https://placehold.co/515x288",
+    image: "/banner.svg",
   },
 ];
 
