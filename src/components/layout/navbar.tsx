@@ -17,11 +17,11 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { label: "Explore Map", href: "#" },
+    { label: "Explore Map", href: "/explore-map" },
     { label: "Find My Project", href: "#" },
-    { label: "Neighborhoods", href: "#", hasDropdown: true },
-    { label: "Waterfront Estates", href: "#" },
-    { label: "Insights", href: "#" },
+    { label: "Neighborhoods", href: "/neighborhoods", hasDropdown: true },
+    { label: "Waterfront Estates", href: "/waterfront-estates" },
+    { label: "Insights", href: "/insights" },
   ];
 
   return (
