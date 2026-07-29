@@ -1,13 +1,13 @@
-import AdvisorProfile from "@/components/sections/AdvisorProfile";
-import AnnouncementTicker from "@/components/sections/AnnouncementTicker";
-import ClientStories from "@/components/sections/ClientStories";
-import ComparePropertiesBanner from "@/components/sections/ComparePropertiesBanner";
-import ConstructionStatus from "@/components/sections/ConstructionStatus";
-import CtaBanner from "@/components/sections/CtaBanner";
-import FeaturedDevelopments from "@/components/sections/FeaturedDevelopments";
-import HeroSection from "@/components/sections/hero-section";
-import Neighborhoods from "@/components/sections/Neighborhood";
-import WhyMiamiSection from "@/components/sections/WhyMiamiSection";
+import AdvisorProfile from "@/components/sections/home/AdvisorProfile";
+import AnnouncementTicker from "@/components/sections/home/AnnouncementTicker";
+import ClientStories from "@/components/sections/home/ClientStories";
+import ComparePropertiesBanner from "@/components/sections/home/ComparePropertiesBanner";
+import ConstructionStatus from "@/components/sections/home/ConstructionStatus";
+import CtaBanner from "@/components/sections/home/CtaBanner";
+import FeaturedDevelopments from "@/components/sections/home/FeaturedDevelopments";
+import HeroSection from "@/components/sections/home/hero-section";
+import Neighborhoods from "@/components/sections/home/Neighborhood";
+import WhyMiamiSection from "@/components/sections/home/WhyMiamiSection";
 
 export default function Home() {
   return (
